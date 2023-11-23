@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Markite: Main page</title>
+</head>
+<body>
+  <div class="wrap flex">
+
+    <main class="workspace flex flex-ai-centr flex-jsc-centr">
+      <nav class="main__navigation flex flex-column flex-ai-centr">
+        <h1 class="workspace__title">Жоден файл не відкрито :(</h1>
+
+        <div class="buttons-group flex flex-column">
+          <button class="workspace__open-file" onclick="surprise()">Перейти до наявного файлу</button> 
+          <button class="workspace__new-file" onclick="surprise()">Створити новий файл</button> 
+          <button class="workspace__new-workspace" onclick="surprise()">Створити новий простір</button>
+        </div>
+      </nav>
+    </main>
+
+    <div class="sidebar">
+      <section class="header">
+        <div class="header__menu"> <i class="fa-solid fa-list-ul"></i> </div>
+
+        <div class="header__create flex">
+          <form action="">
+            <label for=""> <i class="fa-solid fa-magnifying-glass"></i> </label>
+            <input type="text" placeholder="Пошук...">
+          </form>
+
+          <div class="header__new-file"> <i class="fa-solid fa-plus"></i> </div>
+        </div>
+      </section>
+    </div>
+
+  <script src="https://kit.fontawesome.com/27f6eed617.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

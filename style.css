@@ -1,0 +1,155 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background-color: inherit;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jsc-sb {
+  justify-content: space-between;
+}
+.flex-jsc-centr {
+  justify-content: center;
+}
+.flex-ai-centr {
+  align-items: center;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.workspace {
+  background-color: #AFB3B7;
+  padding: 10px;
+  gap: 15px;
+  width: 1170px;
+  height: 100vh;
+}
+.workspace .main__navigation h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.workspace .main__navigation .buttons-group {
+  gap: 15px;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+.workspace .main__navigation .buttons-group button {
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 8px;
+  width: 250px;
+  height: 50px;
+  background-color: rgb(101, 47, 194);
+  background: radial-gradient(circle, rgb(78, 45, 135) 0%, rgb(92, 94, 140) 100%);
+  color: white;
+  transition: background 0.5s;
+}
+.workspace .main__navigation .buttons-group button:hover {
+  background: linear-gradient(to bottom, #4e2d7d, #452772, #3d2167, #341c5c, #2c1651);
+}
+
+.sidebar {
+  background-color: #676d73;
+  padding: 10px 15px;
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .header__menu {
+  background-color: #AFB3B7;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar .header__menu i {
+  margin-right: 2px;
+}
+.sidebar .header__menu:hover {
+  background-color: #8d969d;
+}
+.sidebar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar .header .header__create {
+  gap: 12px;
+}
+.sidebar .header .header__create form {
+  background-color: #AFB3B7;
+  height: 32px;
+  width: 197px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.sidebar .header .header__create form label {
+  margin-left: 5px;
+}
+.sidebar .header .header__create form input {
+  width: 156px;
+  padding: 3px;
+}
+.sidebar .header .header__create .header__new-file {
+  background-color: #AFB3B7;
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sidebar .header .header__create .header__new-file:hover {
+  background-color: #8d969d;
+}/*# sourceMappingURL=style.css.map */
